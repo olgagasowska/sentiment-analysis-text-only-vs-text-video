@@ -64,3 +64,6 @@ Consequently, a number of metrics were used for the thorough analysis and compar
 | **Positive** | 0.65    | 0.59   | 0.62     |
 | **Average**  | **0.65**| **0.65**| **0.64** |
 
+
+[Confusion Matrix](images/confusion_matrix_text_video.png)
+
