@@ -17,7 +17,7 @@ from torch.optim import AdamW
 from tqdm import tqdm
 
 
-file_path = "/content/drive/MyDrive/Kopia 4000_8000_no_duplicates.csv"
+file_path = "/content/drive/MyDrive/4000_8000_no_duplicates.csv"
 
 print("Loading the dataset...")
 df = pd.read_csv(file_path)
