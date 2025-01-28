@@ -112,6 +112,7 @@ Consequently, a number of metrics were used for the thorough analysis and compar
 | **Accuracy**    | 66.25%          | 65.13%             |
 | **F1 Score**    | 0.6571          | 0.6543             |
 
+Although comparable, it seems that Text-Only model has better overall results.
 
 **TEXT ONLY**
 | Class     | Precision | Recall | F1-Score |
@@ -131,6 +132,7 @@ Consequently, a number of metrics were used for the thorough analysis and compar
 | **Positive** | 0.65    | 0.59   | 0.62     |
 | **Average**  | **0.65**| **0.65**| **0.64** |
 
+For Neutral and Positive, the text + video model performs better with higher precision, but for Negative, the text-only model is better.
 
 
 | Speaker                | Text-Only Model Accuracy | Text + Video Model Accuracy |
@@ -170,3 +172,15 @@ Consequently, a number of metrics were used for the thorough analysis and compar
 | **Both**               | 0.0000                   | 0.0000                      |
 | **Ross and Joey**      | 0.0000                   | 1.0000                      |
 | **All**                | 0.0000                   | 0.5000                      |
+
+Per-Speaker Accuracy:
+
+Both models achieve a mutual 1.0 accuracy for several Speakers. This can contradict the hypothesis that the multimodal model can base its predicitons on Spekaer identification rather than Sentiment prediciton. 
+
+
+Overall, both models ahcieve similar results. What is important is that the dataset is small (around 3560 elements) so the results may be different when enlarging the sample. 
+
+Video features, although improve slightly "neutral" and "negative" predictions, do not seem to be a valuable element for sentiment prediction.
+
+
+
