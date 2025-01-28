@@ -3,7 +3,7 @@ MELD https://github.com/declare-lab/MELD**
     The model bases only on the train part of the data due to time restriction of the project
 
 **Data preparation:**
-The models were trained on a small smaple (around 3560 elements) so the accuracy of the results may be biased.
+The models were trained on a small sample (around 3560 elements) so the accuracy of the results may be biased.
 
 The dataset was used on the basis of the preprocessed data (https://github.com/declare-lab/MELD/tree/master/data/MELD_Dyadic), and the raw files provided by MELD creators (mp4).
 
