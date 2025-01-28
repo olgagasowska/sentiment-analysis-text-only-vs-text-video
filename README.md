@@ -3,18 +3,19 @@ MELD https://github.com/declare-lab/MELD**
     The model bases only on the train part of the data due to time restriction of the project
 
 **Data preparation:**
+The models were trained on a small smaple (around 3560 elements) so the accuracy of the results may be biased.
 
-    The dataset was used on the basis of the preprocessed data (https://github.com/declare-lab/MELD/tree/master/data/MELD_Dyadic), and the raw files provided by MELD creators (mp4).
+The dataset was used on the basis of the preprocessed data (https://github.com/declare-lab/MELD/tree/master/data/MELD_Dyadic), and the raw files provided by MELD creators (mp4).
 
    Steps undertaken:
 
-        Importing preprocessed data(“Utterance”, “Speaker”, “Sentiment”) and raw files.
+    Importing preprocessed data(“Utterance”, “Speaker”, “Sentiment”) and raw files.
 
-        Creating a “Filename” for each entrance in the preprocessed data that allows to align the video data with the rest of the data
+    Creating a “Filename” for each entrance in the preprocessed data that allows to align the video data with the rest of the data
 
-        Exporting head and posture features from the raw files with MediaPipe, with average for each “Utterance”
+    Exporting head and posture features from the raw files with MediaPipe, with average for each “Utterance”
 
-        Aligning the two datasets. Dataset structure: “Filename”, “Avg Head Movement (x,y)”, “Avg Posture”, “Speaker”, “Sentiment”, “Utterance”
+    Aligning the two datasets. Dataset structure: “Filename”, “Avg Head Movement (x,y)”, “Avg Posture”, “Speaker”, “Sentiment”, “Utterance”
 
 **Two models were created:**
 
