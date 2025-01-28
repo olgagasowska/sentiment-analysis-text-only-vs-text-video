@@ -132,6 +132,4 @@ Consequently, a number of metrics were used for the thorough analysis and compar
 | **Average**  | **0.65**| **0.65**| **0.64** |
 
 
-[Confusion Matrix](images/confusion_matrix_text_video.png)
-
 
